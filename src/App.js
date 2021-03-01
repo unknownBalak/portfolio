@@ -1,14 +1,14 @@
 import "./App.css";
-import BackgroundImg from "./components/BackgroundImg";
-import About from "./components/About";
-import Skills from "./components/Skills";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      <BackgroundImg />
-      <About />
-      <Skills />
-    </div>
+    <>
+      <div className="App container">
+        <Home />
+      </div>
+      <Footer />
+    </>
   );
 }
 

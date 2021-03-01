@@ -1,0 +1,99 @@
+.main-home-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1220px;
+  flex-grow: 1;
+}
+
+img.AuthorPic {
+  width: 30vw;
+  max-width: 300px;
+  border-radius: 50%;
+}
+.home-body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+.author-img-class,
+.about-author {
+  flex-grow: 1;
+  width: 40vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-author h1 {
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-author {
+  flex-direction: column;
+}
+.download-icon {
+  font-size: 2rem;
+  margin-right: 3px;
+}
+.author-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  background-image: linear-gradient(to right, #f7bd2d, #9d2488);
+  padding: 10px;
+  font-size: 1.5rem;
+  color: inherit;
+  margin-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.author-resume .c1 {
+  position: absolute;
+  left: -4px;
+  width: 5px;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgb(250, 2, 2), rgba(255, 255, 255, 0));
+}
+.author-resume .c2 {
+  position: absolute;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background-image: linear-gradient(to top, rgb(250, 2, 2), rgba(255, 255, 255, 0));
+}
+.author-resume .h1 {
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to left, rgb(97, 2, 250), rgba(255, 255, 255, 0));
+}
+.author-resume .h2 {
+  position: absolute;
+  bottom: -15px;
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(17, 0, 252), rgba(255, 255, 255, 0));
+}
+
+a.author-resume:hover {
+  color: rgb(0, 0, 0);
+  transform: rotate(4deg);
+}
+@media (max-width: 992px) {
+  .home-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .author-resume {
+    margin-top: 10vw;
+  }
+  .author-img-class {
+    display: none;
+  }
+}
