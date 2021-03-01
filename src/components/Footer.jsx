@@ -6,9 +6,10 @@ function nav() {
         <footer className='main-footer-bar'>
              <div className='container'>
              <ul className="nav-footer-key">
-                     <li> <a href="#"> LinkedIn </a></li>
-                     <li> <a href="#"> InstaGram </a></li>
-                     <li> <a href="#"> Twitter </a></li>
+                     <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> LinkedIn </a></li>
+                     <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> Instagram </a></li>
+                     <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> Twitter </a></li>
+
              </ul>
              </div>
         </footer>
