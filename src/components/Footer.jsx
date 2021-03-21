@@ -7,7 +7,7 @@ function nav() {
              <div className='container'>
              <ul className="nav-footer-key">
                      <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> LinkedIn </a></li>
-                     <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> Instagram </a></li>
+                     <li> <a href="https://github.com/unknownBalak" rel='noreferrer' target="_blank"> GitHub </a></li>
                      <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> Twitter </a></li>
 
              </ul>

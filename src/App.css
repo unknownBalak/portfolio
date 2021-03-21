@@ -3,5 +3,5 @@
   margin: 0 auto;
   flex-grow: 1;
   display: flex;
-  justify-content: flex-end;
+  width: 100%;
 }

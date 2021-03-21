@@ -11,6 +11,10 @@ html {
   color: white;
 }
 body {
+  width: 100%;
+}
+body,
+#root {
   min-height: 100vh;
 }
 .full-height-grow {
