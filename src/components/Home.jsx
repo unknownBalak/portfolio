@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useRef,useState,useEffect } from "react";
 import "./css/home.css";
  import './css/animation.css'
 import image from './resources/author_img.jpg';
@@ -8,6 +8,7 @@ import resume from './resources/resume.pdf';
 
 function Home() {
     let [i, setI] = useState(0);
+  const h1Ref = useRef();
   let arr  = [
     "I am Shashi",
     "I am a FrontEnd Developer",
@@ -15,8 +16,13 @@ function Home() {
   ];
  useEffect(()=>{
    let timer = setInterval(()=>{
-         if(i===3) setI(i=0);
-         setI(i++);
+         if(i===3)
+         { 
+           setI(i=0);
+         }else{
+          setI(i++);
+          } 
+          h1Ref.current.textContent= arr[i];         
    },4000)
   return () => clearInterval(timer);
 },[])
@@ -29,7 +35,7 @@ function Home() {
       <img src={image}  alt="authorPic" className='AuthorPic'/>
           </div>
           <div className="about-author">
-               <h1 >{arr[i]}</h1>
+               <h1 ref={h1Ref} >{arr[i]}</h1>
                <a href={resume} download className='author-resume'> 
                 <span className="glyphicon glyphicon-cloud-download download-icon"></span>
                          DownLoad Resume
@@ -37,6 +43,7 @@ function Home() {
                          <span className="c1"></span>
                          <span className="h2"></span>
                          <span className="c2"></span>
+                         
                </a>
           </div>
          </div>
