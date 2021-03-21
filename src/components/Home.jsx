@@ -32,20 +32,15 @@ function Home() {
                <h1 >{arr[i]}</h1>
                <a href={resume} download className='author-resume'> 
                 <span className="glyphicon glyphicon-cloud-download download-icon"></span>
-           
                          DownLoad Resume
                          <span className="h1"></span>
                          <span className="c1"></span>
                          <span className="h2"></span>
                          <span className="c2"></span>
                </a>
-
           </div>
          </div>
-        
-        
     </div>
-
   );
 }
 
