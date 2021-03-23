@@ -9,7 +9,6 @@ function Aboutme() {
     ];
     useEffect(() => {
   let id = setInterval(() => {
-         console.log(i);
         if(i===2) setI(0);
         else setI(i+1);
       }, 4000);
