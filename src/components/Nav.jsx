@@ -1,6 +1,8 @@
 import React from 'react'
 import "./css/nav.css";
 import "./css/animation.css";
+import { Link } from "react-router-dom";
+
 
 function Nav() {
        return (
@@ -8,7 +10,7 @@ function Nav() {
              <div className="brand-logo">
              </div>
              <ul className="nav-key">
-                     <li> <a href="www.google.com"> My Journey </a></li>
+                     <li> <Link to="/about"> My Journey </Link></li>
                      <li> <a href="www.google.com"> Contact </a></li>
                      <li> <a href="www.google.com"> Intro </a></li>
                      <li> <a href="www.google.com"> Skills </a></li>
