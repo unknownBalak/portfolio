@@ -31,9 +31,14 @@ function About() {
  </p>               
  <p>I am from Bihar, currently staying in Bangalore. I did my graduation from Reva University. Currently, I am pursuing a course in DSA on "Udemy" in javaScript. </p>           
             </div>  
+   <div className="qualification">
 
-  
-             </div>
+     
+   </div>
+
+
+</div>
+
     )
 }
 
