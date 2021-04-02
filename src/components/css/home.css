@@ -99,6 +99,7 @@ a.author-resume:hover {
   .about-author h1 {
     font-size: 7vw;
   }
+  
 }
 @media (max-width: 668px) {
   .about-author h1 {

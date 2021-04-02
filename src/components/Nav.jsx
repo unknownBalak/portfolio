@@ -11,9 +11,9 @@ function Nav() {
              </div>
              <ul className="nav-key">
                      <li> <Link to="/about"> My Journey </Link></li>
-                     <li> <a href="www.google.com"> Contact </a></li>
-                     <li> <a href="www.google.com"> Intro </a></li>
-                     <li> <a href="www.google.com"> Skills </a></li>
+                     <li> <Link to="/skill"> Skills </Link></li>
+                     <li> <Link to="/project"> Project </Link></li>
+                     <li> <Link to="/contact"> Contact </Link></li>
              </ul>
         </nav>
     )
