@@ -1,0 +1,68 @@
+.projects h1 {
+  color: gray;
+}
+.project {
+  width: 90vw;
+  height: 200px;
+  margin: 20px auto;
+  position: relative;
+  transition: all 0.5s;
+}
+.project::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  background-color: red;
+  padding: 10px;
+  height: 50px;
+  width: 100px;
+  border-bottom-right-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+}
+.project1::before {
+  content: "Project1";
+}
+.project2::before {
+  content: "Project2";
+}
+.project3::before {
+  content: "Project3";
+}
+.project1 {
+  height: 300px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-grow: 1;
+  z-index: 1;
+  margin: 20px 0;
+  position: relative;
+}
+.project1:hover {
+  transform: translateY(-5px);
+}
+.aboutProject {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: rgba(189, 47, 47, 0.863);
+  padding: 5px;
+  width: 500px;
+}
+
+@media (max-width: 992px) {
+  .project1 > img {
+    width: 100%;
+  }
+  .aboutProject {
+    background-color: rgba(139, 72, 72, 0.438);
+    width: 70%;
+    left: 0;
+  }
+}

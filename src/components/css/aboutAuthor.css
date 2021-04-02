@@ -2,7 +2,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  position: relative;
 }
+.croosIcon {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../resources/skillsLogo/cross-icon1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+
 .AuthorPic1 {
   border-radius: 3px !important;
   width: 20vw !important;
@@ -24,6 +39,8 @@
   /* webkit-animation: thumbnail 4s ease-in-out infinite alternate; */
   animation: thumbnail 4s ease-in-out infinite alternate;
   will-change: transform;
+}
+.croosIcon {
 }
 @keyframes thumbnail {
   from {
@@ -67,4 +84,46 @@
 }
 .AuthorDescrition > h1 {
   text-align: center;
+}
+.qualification,
+.experiance {
+  order: 3;
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .aboutAuthor {
+    flex-direction: column;
+  }
+  .AuthorDetails {
+    animation: none;
+    -o-animation: none;
+    -moz-animation: none;
+    order: 2;
+  }
+  .AuthorDescrition {
+    order: 1;
+    flex: none;
+  }
+}
+.hr {
+  width: 120%;
+  transform: translate(-10%);
+  border-radius: 20%;
+}
+li {
+  list-style-type: none;
+}
+.hl {
+  color: green;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.higherStudy,
+.occupation {
+  color: #00acc1;
+}
+.experiance p {
+  font-size: 20px;
 }

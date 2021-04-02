@@ -87,22 +87,22 @@ a:hover {
   background-image: linear-gradient(to bottom, #f7bd2d, #9d2488);
 }
 .nav-key > li:nth-child(1) {
-  animation: firstChild 5s;
+  animation: firstChild 1.5s;
   z-index: 100;
   animation-timing-function: ease-in-out;
 }
 .nav-key > li:nth-child(2) {
-  animation: secondChild 5s;
+  animation: secondChild 1.5s;
   z-index: 100;
   animation-timing-function: ease-in-out;
 }
 .nav-key > li:nth-child(3) {
-  animation: thirdChild 5s;
+  animation: thirdChild 1.5s;
   animation-timing-function: ease-in-out;
   z-index: 100;
 }
 .nav-key > li:nth-child(4) {
-  animation: fouthChild 5s;
+  animation: fouthChild 1.5s;
   animation-timing-function: ease-in-out;
   z-index: 100;
 }
@@ -137,7 +137,7 @@ a:hover {
   to {
     transform: translate(0);
   }
-} 
+}
 
 @media (max-width: 768px) {
   .nav-key > li:nth-child(2),
