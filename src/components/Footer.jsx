@@ -6,9 +6,9 @@ function nav() {
         <footer className='main-footer-bar'>
              <div className='container'>
              <ul className="nav-footer-key">
-                     <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> LinkedIn </a></li>
-                     <li> <a href="https://github.com/unknownBalak" rel='noreferrer' target="_blank"> GitHub </a></li>
-                     <li> <a href="https://www.linkedin.com/in/shashi-tiwari-350450182/" rel='noreferrer' target="_blank"> Twitter </a></li>
+                     <li> <a href="https://bit.ly/2PnbscX" rel='noreferrer' target="_blank"> LinkedIn </a></li>
+                     <li> <a href="https://bit.ly/3wqCwIC" rel='noreferrer' target="_blank"> GitHub </a></li>
+                     <li> <a href="https://bit.ly/39GunGx" rel='noreferrer' target="_blank"> Twitter </a></li>
 
              </ul>
              </div>

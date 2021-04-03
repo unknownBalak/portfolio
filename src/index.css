@@ -9,6 +9,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   background-color: #000000;
   color: white;
+  /* font-size: 14px !important; */
 }
 body {
   width: 100%;
