@@ -1,7 +1,6 @@
 .projects {
   margin: auto;
-  padding: 30px;
-  position: relative;
+  border: 2px solid red;
 }
 .projects h1 {
   color: gray;
@@ -12,10 +11,6 @@
   margin: 20px auto;
   position: relative;
   transition: all 0.5s;
-}
-.crossIcon2 {
-  position: absolute;
-  right: 0px;
 }
 .project1 {
   margin-top: 50px;
