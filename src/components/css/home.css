@@ -46,7 +46,7 @@ img.AuthorPic {
   background-color: red;
   background-image: linear-gradient(to right, #f7bd2d, #9d2488);
   padding: 10px;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: inherit;
   margin-top: 20px;
   position: relative;
@@ -99,7 +99,6 @@ a.author-resume:hover {
   .about-author h1 {
     font-size: 7vw;
   }
-  
 }
 @media (max-width: 668px) {
   .about-author h1 {
