@@ -7,8 +7,8 @@ import absenteelist from './resources/projectWork/absenteelist.png';
 // import music3 from './resources/projectWork/musicAppClone3.png';
 function Project() {
     return (
-        <div className="projects" style={{border:"1px solid red"}}>
-            <Link to="/" className ="homePage crossIcon1"></Link>
+        <div className="projects">
+            <Link to="/" className ="homePage crossIcon2"></Link>
             <div className="project project1">
                   <img src={music1} alt="project1" />
               <div className="aboutProject">
