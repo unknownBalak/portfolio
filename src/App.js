@@ -4,7 +4,7 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
             <Route path="/project">
               <Project />
             </Route>
-            {/* <Route path="/contact">
-              <Contact /> */}
-            {/* </Route> */}
+            <Route path="/contact">
+              <Contact />
+            </Route>
             <Route path="/">
               <Home />
             </Route>

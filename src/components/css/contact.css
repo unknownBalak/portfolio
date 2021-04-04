@@ -1,0 +1,56 @@
+.contactForm {
+  width: 100%;
+  position: relative;
+}
+.form {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  background-color: rgb(13, 140, 252);
+  padding: 20px;
+  padding: 20px;
+}
+.contactForm .hl {
+  font-size: 4em;
+  color: white;
+  text-align: center;
+}
+.form > form > div > .label {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 -2px -13px;
+  display: flex;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.form > form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: auto;
+  max-width: 100%;
+  color: black;
+}
+.form > form > div > .btn {
+  margin-top: 20px;
+  height: 50px;
+  width: 160px;
+  font-size: 18px;
+  border: 2px solid;
+}
+.form > form > div > input,
+.form > form > div > textarea {
+  width: 350px;
+  max-width: 100%;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+}
+.form > form > div > input {
+  height: 50px;
+}
+.crossIconInContactForm {
+}
