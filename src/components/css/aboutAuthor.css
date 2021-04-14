@@ -40,8 +40,6 @@
   animation: thumbnail 4s ease-in-out infinite alternate;
   will-change: transform;
 }
-.croosIcon {
-}
 @keyframes thumbnail {
   from {
     transform: rotate(2deg);

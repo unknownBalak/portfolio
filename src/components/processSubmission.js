@@ -1,10 +1,8 @@
-// import { Email } from `${https://smtpjs.com/v3/smtp.js}`;
 import emailjs from "emailjs-com";
 
 function sendData(e) {
   e.preventDefault();
 
-  // emailjs.sendForm()
   emailjs.sendForm("gmail", "template_xsthfwk", e.target, "user_V14SNDxAWG2HTEgqQ0q50").then(
     (result) => {
       alert("Message sent successfullly!!");

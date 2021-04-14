@@ -15,7 +15,7 @@
 .brand-logo::before,
 .brand-logo::after {
   font-family: "Shadows Into Light Two", cursive;
-  font-size: 7rem;
+  font-size: 4rem;
   background: -webkit-linear-gradient(#f7bd2d, #9d2488);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,8 +34,8 @@
 .brand-logo:after {
   content: "T";
   position: absolute;
-  top: 17%;
-  right: 3%;
+  top: 14%;
+  left: 50%;
 }
 ul.nav-key {
   display: flex;
