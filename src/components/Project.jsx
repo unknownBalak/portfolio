@@ -68,9 +68,9 @@ function Project() {
         <div className="aboutProject">
           <h1>Radio App</h1>
           <p>
-            This project tells my knowledge about API call. I called an API to display data and if you
-            want to listen music from your computer of laptop just go to station and play the music.
-            . click{" "}
+            This project tells my knowledge about API call. I called an API to display all station
+            and if you want to listen music from your computer/laptop/mobile just click to station
+            and play the music. . click{" "}
             <a
               href="radioapp.netlify.app/"
               target="_blank"
