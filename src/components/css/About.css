@@ -1,0 +1,86 @@
+.about {
+  display: flex;
+}
+.about__me {
+  width: 90%;
+}
+.author_resume {
+  width: 50%;
+}
+.about__me > h2,
+.contact__details > h2 {
+  font-weight: 500;
+  color: white;
+}
+.image {
+  width: 30%;
+}
+.About_author {
+  width: 70%;
+}
+.contact {
+  display: flex;
+}
+.about__me p,
+.contact__details p {
+  color: rgb(177 159 159 / 65%);
+  font-weight: 400;
+}
+.contact__details h3 {
+  color: rgb(90, 88, 88);
+}
+.contact__details p {
+  line-height: 0.6;
+}
+.author_resume {
+  width: 200px;
+  height: 37px;
+  background-color: #464545;
+  color: "white";
+  align-items: center;
+  cursor: pointer;
+  z-index: 0;
+  display: flex;
+  transition: 20ms;
+  justify-content: space-evenly;
+}
+.download__icon {
+  z-index: 1;
+}
+.author_resume > span {
+  z-index: 1;
+  font-weight: 500;
+}
+
+.author_resume:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 992px) {
+  .About_author {
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+  }
+  .about .image {
+    display: none;
+  }
+  .About_author > .about__me {
+    width: 100%;
+  }
+  .contact__details {
+    margin: auto;
+  }
+  .contact__details p {
+    line-height: 1;
+  }
+  .contact {
+    display: block;
+  }
+  .author_resume {
+    margin: auto;
+    width: 300px;
+    height: 70px;
+  }
+}

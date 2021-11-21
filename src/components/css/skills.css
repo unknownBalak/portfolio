@@ -1,0 +1,65 @@
+.skills {
+  margin: auto;
+  position: relative;
+}
+.skill_table {
+  padding: 20px;
+}
+.skill_table td {
+  padding: 20px;
+}
+.skills_icon {
+  height: 250px !important;
+  width: 200px !important;
+  padding: 20px;
+}
+.hover_effect {
+  position: relative;
+  transition: all 0.5s;
+}
+.skills_icon + .description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  display: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid red;
+}
+.htmlIcon:after {
+  content: "Advance";
+  position: absolute;
+  border: 2px solid red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  display: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid red;
+}
+.skills_icon:hover {
+  display: block;
+}
+.skills_icon:hover {
+  transform: scale(1.1);
+}
+.homePage {
+  position: relative;
+  float: right;
+  height: 20px;
+  width: 20px;
+  background-image: url("../resources/skillsLogo/cross-icon1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .col-sm-12 {
+    width: auto;
+  }
+}

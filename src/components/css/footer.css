@@ -1,0 +1,19 @@
+footer.main-footer-bar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.main-footer-bar > .container {
+  justify-content: flex-end;
+}
+ul.nav-footer-key {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0;
+}
+
+ul.nav-footer-key li {
+  padding: 1rem;
+  list-style-type: none;
+}

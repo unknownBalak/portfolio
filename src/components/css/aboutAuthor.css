@@ -1,0 +1,127 @@
+.aboutAuthor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  position: relative;
+}
+.croosIcon {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../resources/skillsLogo/cross-icon1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+
+.AuthorPic1 {
+  border-radius: 3px !important;
+  width: 20vw !important;
+  max-width: 200px !important;
+}
+.AuthorDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 7px grey;
+  /* flex: 0 0 20%; */
+  background-color: white;
+  position: relative;
+  transform-origin: top;
+  -moz-animation: thumbnail 4s ease-in-out infinite alternate;
+  -o-animation: thumbnail 4s ease-in-out infinite alternate;
+  /* webkit-animation: thumbnail 4s ease-in-out infinite alternate; */
+  animation: thumbnail 4s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@keyframes thumbnail {
+  from {
+    transform: rotate(2deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}
+.hookClass {
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.AuthorDetails p {
+  color: rgb(172, 165, 165);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.social-link > li > a {
+  color: tomato;
+}
+.social-link > li {
+  display: flex;
+  align-self: flex-start;
+  padding: 5px;
+}
+.AuthorDescrition {
+  flex: 0 0 70%;
+}
+.AuthorDescrition > h1 {
+  text-align: center;
+}
+.qualification,
+.experiance {
+  order: 3;
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .aboutAuthor {
+    flex-direction: column;
+  }
+  .AuthorDetails {
+    animation: none;
+    -o-animation: none;
+    -moz-animation: none;
+    order: 2;
+  }
+  .AuthorDescrition {
+    order: 1;
+    flex: none;
+  }
+}
+.hr {
+  width: 120%;
+  transform: translate(-10%);
+  border-radius: 20%;
+}
+li {
+  list-style-type: none;
+}
+.hl {
+  color: green;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.higherStudy,
+.occupation {
+  color: #00acc1;
+}
+.experiance p {
+  font-size: 20px;
+}
