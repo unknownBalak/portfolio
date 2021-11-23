@@ -5,7 +5,7 @@ function Aboutme() {
     let arr  = [
       "I am Shashi",
       "I am a FrontEnd Developer",
-      "I am a content creator"
+      "I am a Blogger"
     ];
     useEffect(() => {
   let id = setInterval(() => {

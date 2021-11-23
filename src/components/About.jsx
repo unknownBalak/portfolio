@@ -52,20 +52,15 @@ function About() {
         <p>
           {" "}
           <span>Namaste </span>, I'm Shashi, a graduate and full-time learner who loves to build fast, 
-          robust and Scalable User Interfaces. I put my leg in web development in April 2020 Since then
-           I never looked back. I am a self-thought web developer. I am quite interested in ML and AI. 
-           I love to develop things that add value to society and guide people on their path
+          robust and Scalable User Interfaces. I am a self-thought web developer. I love to develop things that add value to society and guide people on their path
         </p>
         <p>
           {" "}
           I love to explore new thing, meet new people, guide people. I listen to podcasts and read books. And, I love 
-           to travel, All though I have never travelled.
+           to travel.
         </p>
         <p>
-          I am from Bihar, currently staying in Bangalore. I did my graduation from Reva University.
-          Currently, I have completed a certification course on Udemy and the name of the course is JavaScript Algorithms and Data Structures Masterclass and I learnt a lot of things about DSA using javascript and I will point some of them: 
-         Data Structure:  Array, LinkedList, Stack, Queue, Tree, Heap, Hash, Graph. 
-Algorithm: Sliding Window algorithm, Divide and Conquer Algorithm, Sorting Algorithm(Linear, Insertion Sort, Bubble Sort, Selection Sort, Quick Sort, Merge Sort, Radix Sort)  Searching Algorithm.{" "}
+          I am from Bihar, currently staying in Bangalore. I completed my graduation from Reva University in 2021.
         </p>
       </div>
       <div className="qualification">
@@ -103,12 +98,15 @@ Algorithm: Sliding Window algorithm, Divide and Conquer Algorithm, Sorting Algor
       <div className="experiance">
         <h1>Experiance</h1>
         <ul>
-          <li>
-            <h3 className="occupation">Web Developer</h3>
+        <li>
+            <h3 className="occupation">Full stack Intern (5/21 to 11/21)</h3>
             <ul>
               <p>
-                A freelancer looking for Opportunity
-                <span className="hl"></span> to develop a fast &amp; robust user Interfaces.
+              <span className="hl"></span>
+         This is a product-based start-up. I was working on MERN stack application. I majorly develop UI.
+                 For build, I used React, Nodejs, Postgres, Express, and some library. 
+       I achieved 60% more fast result after using merge-sort algorithm to sort the fetched data from backend. Here I 
+                 learnt Ownership, Open to learn new technologies &amp; Be collaborative with colleague. 
               </p>
             </ul>
           </li>
@@ -119,6 +117,51 @@ Algorithm: Sliding Window algorithm, Divide and Conquer Algorithm, Sorting Algor
               <p>I have guided many students to create their own Interactive and scalable user Interfaces.</p>
             </ul>
           </li>
+          <hr className="hr" />
+          <li>
+            <h3 className="occupation">Blogger</h3>
+            <ul>
+              <p>
+               <p> Here is my some work</p>
+                <span className="hl"></span> 
+                <Link
+              to={{ pathname: "https://bit.ly/2ZiFNye" }}
+              target="_blank"
+              className="blogLink"
+              rel="noreferrer"
+            >
+             Fall in Love with Object In JavaScript
+            </Link>
+                <Link
+              to={{ pathname: "https://bit.ly/3CLNgmS" }}
+              target="_blank"
+              rel="noreferrer"
+              className="blogLink"
+            >
+            ToDo application using meteor application
+            </Link>
+                <Link
+              to={{ pathname: "https://bit.ly/3oQBMJX" }}
+              target="_blank"
+              rel="noreferrer"
+              className="blogLink"
+            >
+            Interactive pricing Component challenge explanation
+            </Link>
+              </p>
+            </ul>
+          </li>
+          <hr className="hr" />
+          <li>
+            <h3 className="occupation">Web Developer</h3>
+            <ul>
+              <p>
+                A freelancer looking for Opportunity
+                <span className="hl"></span> to develop a fast &amp; robust user Interfaces.
+              </p>
+            </ul>
+          </li>
+         
         </ul>
       </div>
     </div>

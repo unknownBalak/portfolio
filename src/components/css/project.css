@@ -39,7 +39,9 @@
 .project3::before {
   content: "Project3";
 }
-
+.project4::before {
+  content: "Project4";
+}
 /*I used another class selector project for giving some height and width of
       image of my project
 */
@@ -83,3 +85,4 @@
     left: 0;
   }
 }
+
