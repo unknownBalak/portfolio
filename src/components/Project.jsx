@@ -20,7 +20,7 @@ function Project() {
     {
       pName: "Twitter Clone",
       pImage: twitter,
-      pURL: "twittercloneusingcssandhtml.netlify.app/",
+      pURL: "https://twittercloneusingcssandhtml.netlify.app/",
       PGitHub: "https://github.com/unknownBalak/twitterClone__CSS__HTML",
       pDescription: "I only used html and CSS to build this project.",
     },
