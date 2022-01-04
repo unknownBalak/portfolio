@@ -99,7 +99,7 @@ function About() {
         <h1>Experiance</h1>
         <ul>
         <li>
-            <h3 className="occupation">Full stack Intern (5/21 to 11/21)</h3>
+            <h3 className="occupation">Full stack Intern (5/21 to continue)</h3>
             <ul>
               <p>
               <span className="hl"></span>
