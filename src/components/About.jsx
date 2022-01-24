@@ -29,7 +29,11 @@ function About() {
           </li>
           <li>
             {" "}
-            <a href="https://github.com/unknownBalak" rel="noreferrer" target="_blank">
+            <a
+              href="https://github.com/unknownBalak"
+              rel="noreferrer"
+              target="_blank"
+            >
               {" "}
               GitHub{" "}
             </a>
@@ -51,16 +55,19 @@ function About() {
         <h1>Who Am I?</h1>
         <p>
           {" "}
-          <span>Namaste </span>, I'm Shashi, a graduate and full-time learner who loves to build fast, 
-          robust and Scalable User Interfaces. I am a self-thought web developer. I love to develop things that add value to society and guide people on their path
+          <span>Namaste </span>, I'm Shashi, a graduate and full-time learner
+          who loves to build fast, robust and Scalable User Interfaces. I am a
+          self-thought web developer. I love to develop things that add value to
+          society and guide people on their path
         </p>
         <p>
           {" "}
-          I love to explore new thing, meet new people, guide people. I listen to podcasts and read books. And, I love 
-           to travel.
+          I love to explore new thing, meet new people, guide people. I listen
+          to podcasts and read books. And, I love to travel.
         </p>
         <p>
-          I am from Bihar, currently staying in Bangalore. I completed my graduation from Reva University in 2021.
+          I am from Bihar, currently staying in Bangalore. I completed my
+          graduation from Reva University in 2021.
         </p>
       </div>
       <div className="qualification">
@@ -70,7 +77,8 @@ function About() {
             <h3 className="higherStudy">Bachelor in Science</h3>
             <ul>
               <h4>
-                <span className="hl">In</span> Maths, Statistics &amp; Computer Science
+                <span className="hl">In</span> Maths, Statistics &amp; Computer
+                Science
               </h4>
               <p>Reva University</p>
             </ul>
@@ -98,15 +106,19 @@ function About() {
       <div className="experiance">
         <h1>Experiance</h1>
         <ul>
-        <li>
-            <h3 className="occupation">Full stack Intern (5/21 to continue)</h3>
+          <li>
+            <h3 className="occupation">
+              Full stack Intern/Trainee (5/21 to 11/21) @Datoin
+            </h3>
             <ul>
               <p>
-              <span className="hl"></span>
-         This is a product-based start-up. I was working on MERN stack application. I majorly develop UI.
-                 For build, I used React, Nodejs, Postgres, Express, and some library. 
-       I achieved 60% more fast result after using merge-sort algorithm to sort the fetched data from backend. Here I 
-                 learnt Ownership, Open to learn new technologies &amp; Be collaborative with colleague. 
+                <span className="hl"></span>
+                This is a product-based start-up. I was working on MERN stack
+                application. I majorly develop UI. For build, I used React,
+                Nodejs, Postgres, Express, and some library. I achieved 60% more
+                fast result after using merge-sort algorithm to sort the fetched
+                data from backend. Here I learnt Ownership, Open to learn new
+                technologies &amp; Be collaborative with colleague.
               </p>
             </ul>
           </li>
@@ -114,7 +126,10 @@ function About() {
           <li>
             <h3 className="occupation">Mentor / Instructor</h3>
             <ul>
-              <p>I have guided many students to create their own Interactive and scalable user Interfaces.</p>
+              <p>
+                I have guided many students to create their own Interactive and
+                scalable user Interfaces.
+              </p>
             </ul>
           </li>
           <hr className="hr" />
@@ -122,32 +137,32 @@ function About() {
             <h3 className="occupation">Blogger</h3>
             <ul>
               <p>
-               <p> Here is my some work</p>
-                <span className="hl"></span> 
+                <p> Here is my some work</p>
+                <span className="hl"></span>
                 <Link
-              to={{ pathname: "https://bit.ly/2ZiFNye" }}
-              target="_blank"
-              className="blogLink"
-              rel="noreferrer"
-            >
-             Fall in Love with Object In JavaScript
-            </Link>
+                  to={{ pathname: "https://bit.ly/2ZiFNye" }}
+                  target="_blank"
+                  className="blogLink"
+                  rel="noreferrer"
+                >
+                  Fall in Love with Object In JavaScript
+                </Link>
                 <Link
-              to={{ pathname: "https://bit.ly/3CLNgmS" }}
-              target="_blank"
-              rel="noreferrer"
-              className="blogLink"
-            >
-            ToDo application using meteor application
-            </Link>
+                  to={{ pathname: "https://bit.ly/3CLNgmS" }}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="blogLink"
+                >
+                  ToDo application using meteor application
+                </Link>
                 <Link
-              to={{ pathname: "https://bit.ly/3oQBMJX" }}
-              target="_blank"
-              rel="noreferrer"
-              className="blogLink"
-            >
-            Interactive pricing Component challenge explanation
-            </Link>
+                  to={{ pathname: "https://bit.ly/3oQBMJX" }}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="blogLink"
+                >
+                  Interactive pricing Component challenge explanation
+                </Link>
               </p>
             </ul>
           </li>
@@ -157,11 +172,11 @@ function About() {
             <ul>
               <p>
                 A freelancer looking for Opportunity
-                <span className="hl"></span> to develop a fast &amp; robust user Interfaces.
+                <span className="hl"></span> to develop a fast &amp; robust user
+                Interfaces.
               </p>
             </ul>
           </li>
-         
         </ul>
       </div>
     </div>
